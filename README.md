@@ -40,8 +40,6 @@ Don't forget to remove these before you begin building the second component!
 
 ## Debugging YouTube
 
-![Spock](https://media.giphy.com/media/fECTyvPYevOHC/giphy.gif)
-
 You can only count so many jumps, hula-hoop rotations, and hot dogs being
 devoured before you go insane. Time to move on from our record judge job to
 greener pastures! Not to worry, we've secured ourselves a gig at YouTube this
@@ -81,6 +79,9 @@ Classes can be added as attributes in JSX, similar to HTML. The one difference
 to remember is that in JSX, we must use the `className` attribute, rather than
 `class`. Using `class` will cause an error while testing. Classes are used in
 this lab to make testing your solution a little easier.
+
+**Note:** Remember that all React components must act like pure functions with respect to their props, and thus can only _return_ one element. Returning multiple elements can be accomplished by wrapping them in a wrapper element.
+
 
 ## Resources
 
