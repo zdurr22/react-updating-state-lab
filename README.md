@@ -4,8 +4,8 @@
 
 In this lab, you'll update state using `setState()`. After running `npm install`
 and `npm start`, you'll see that this app is not currently working. Your task is
-to build and export two components. These components are unrelated except in
-that they will use `setState()` to update their internal state.
+to build and export two components. These components are unrelated, except for the fact
+that they will both use `setState()` to update their internal states.
 
 ## World Record Click Counter
 
